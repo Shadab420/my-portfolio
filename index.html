@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is a sample html page" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="index, follow" />
+		
+		<!--logo-->
+		<link rel="icon" href="#" />
+		
+		<title>Sample page</title>
+		
+		<!-- Style sheets -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	</head>
+	
+	<body>
+		
+		<!-- Navbar -->
+		<div class="nav">
+			<div class="nav-contents">
+				<div class="nav-brand"><img src="assets/logos/logo.gif" alt="Logo"/></div>
+				<div class="nav-items">
+					<ul>
+						<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Expertise</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+					</ul>
+				</div>
+				
+				<button class="mobile-menu-btn" onclick="displayMobileMenu()">menu</button>
+				
+			</div>
+		</div>
+		
+		<div class="mobile-menu-items" id="mobile-menu-items">
+			<button id="close-mobile-menu-btn" onclick="hideMobileMenu()">X</button>
+			<ul id="mobile-menu-ul">
+				<li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Home</a></li>
+				<li class="mobile-menu-item"><a href="#aboutme" class="mobile-menu-link">About Me</a></li>
+				<li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Expertise</a></li>
+				<li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Projects</a></li>
+				<li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Reviews</a></li>
+			</ul>
+		</div>
+
+
+		<section class="home-section" id="home">
+			<h2 class="header">Welcome to my portfolio!</h2>
+			<cite>Have a nice journey!</cite>
+		</section>
+
+		<section class="about-section" id="aboutme">
+
+		</section>
+
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
